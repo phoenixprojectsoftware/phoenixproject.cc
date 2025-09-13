@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=920">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" media="(prefers-color-scheme:no-preference)"/>
+		<link rel="icon" type="image/x-icon" href="/favicon-dark.ico" media="(prefers-color-scheme:dark)"/>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" media="(prefers-color-scheme:light)"/>
+		<link rel="stylesheet" href="/css/styles.min.css"/>
+		<title>The Phoenix Project - ZAMNHLMP 2.6 Update</title>
+		<meta name="description" content="Announcing Half-Life: Zombies Ate My Neighbours Multiplayer 2.6 and the Seasonal Scheme.">
+	</head>
+	<body>
+		<div id="container">
+			<script id="replace_with_header" src="/js/header.js"></script>
+			<div id="content">
+				<script id="replace_with_sidebar" src="/js/sidebar.js"></script>
+				<div id="main">
+					<div id="page-banner">
+						<div id="page-desc">
+							<h6>ZAMNHLMP 2.6 Update</h6>
+							<em>August 4, 2021</em>
+							<hr>
+							<p>Announcing Half-Life: Zombies Ate My Neighbours Multiplayer 2.6 and the Seasonal Scheme.</p>
+						</div>
+						<div id="page-thumbnail">
+							<img src="/images/posts/6.2021/update.webp" alt="update.webp" width="300" height="250"/>
+						</div>
+					</div>
+					<h1>Introduction</h1>
+					<div class="main-content">
+						<p>Hey all. Sabian & Ry13y04 here, the Community Manager of The Phoenix Project Software.</p>
+						<p>Today, we are excited to announce to you the all new 2.6 update of <em>Half-Life: Zombies Ate My Neighbours Multiplayer – Early Access.</em></p>
+						<p>Since the release of even 2.3 of ZAMNHLMP, the team have been planning a seasonal scheme for the game to keep it fresh – and with this article, we’re proud to announce that it’s finally happening.</p>
+						<p>With our next major update – version 2.6, we are starting our seasonal scheme with Season 6: HECU, themed around the Hazardous Environment Combat Unit from the <em>Half-Life</em> universe.</p>
+						<p><a target="_blank" href="/images/posts/8.2021/maxres/2.6_screenshot_1.jpg"><img class="image-right" src="/images/posts/8.2021/2.6_screenshot_1.webp" alt="2.6_screenshot_1.webp" width="200" height="125"></a>After Season 6 we are planning for four more seasons, ending on Season 10, where the game will then be re-evaluated to see if we can keep adding content. Each season has its own theme, based on either the <em>Half-Life or the Zombies Ate My Neighbors</em> universe, and with each season brings in new playermodels, skins, maps, sounds and more to keep the game fresh and full of new content. A typical season will last from 1.5 to 2.5 months.</p>
+					</div>
+					<h1>What Content Will Be In Season 6?</h1>
+					<div class="main-content">
+						<ul>
+							<li><a target="_blank" href="/images/posts/8.2021/maxres/2.6_screenshot_2.jpg"><img class="image-right" src="/images/posts/8.2021/2.6_screenshot_2.webp" alt="2.6_screenshot_2.webp" width="200" height="125"></a>We’ve backported all the weapons from <em>Opposing Force</em> into Aura and adapted it to the ZAMNHLMP gameplay & gamemode system.</li>
+							<li>We added all the <em>Opposing Force</em> playermodels, maps & skins – including Rubble, Repent, Disposal and the <strong>correct version of Gasworks</strong>.</li>
+							<li>We added all the <em>Opposing Force</em> sounds, meaning map makers & dataminers can have a play around with those.</li>
+							<li>We fixed a bunch of bugs and made a bunch of UI enhancements.</li>
+						</ul>
+					</div>
+					<h1>Linux Support and Cross-Play</h1>
+					<div class="main-content">
+						<p>Our biggest goal for ZAMNHLMP 2.6 was to get it working on other operating systems than Windows; because PC gamers should play their games how they want to.</p>
+						<p>I’m proud to say that <strong>yes</strong>, ZAMNHLMP 2.6 <strong>will</strong> support Linux & Windows-Linux crossplay. You will also be able to host dedicated servers on Linux using ReHLDS.</p>
+					</div>
+					<h1>Some Smooth Source Engine Stuff</h1>
+					<div class="main-content">
+						<p><a target="_blank" href="/images/posts/8.2021/maxres/2.6_screenshot_3.jpg"><img class="image-right" src="/images/posts/8.2021/2.6_screenshot_3.webp" alt="2.6_screenshot_3.webp" width="200" height="125"></a>One of our goals was to modernise Aura’s client-side behaviours and fix its inconveniences – one of which being the old Quake-style viewpunch that occurs when you fire any weapon. Working with Phoenix Software’s programming team, including newcomer BlueNightHawk, we backported the smooth viewpunch that you see in <em>Half-Life 2</em> from the Source 2013 engine to Aura.</p>
+						<p>We also backported the viewsway and bobbing from Source to Aura. We know that our players like options – therefore, you can turn all of these off in the Multiplayer Advanced Options screen in ZAMNHLMP – which we’ve updated for Aura 2.0, of course. Another option we added for server operators is the ability to change the MP5’s fire rate.</p>
+						<p><strong>One thing I should note; everything explained in this feature is also explained in the brand new Instruction Manual booklet we prepared for 2.6; ditching the old HTML-style manual we had.</strong></p>
+					</div>
+					<h1>Squashing the Bugs</h1>
+					<div class="main-content">
+						<p>In terms of bugs, a good number of bugs were fixed:</p>
+						<ul>
+							<li>Set the max carry value for the 9mm weapons to 240 – stops the ammo display from getting stuck at “254”.</li>
+							<li>Fixed an issue on Bounce where the lighting would lag the engine.</li>
+							<li>Fixed gamemode and dedicated server settings overriding user-specified options on listen servers.</li>
+							<li>Fixed gamemode names & maps named appearing muffled in the server browser.</li>
+							<li>Fixed the tau cannon’s laser brightness sticking to one value rather than depending on how long the player charged the tau for.</li>
+							<li>Fixed the Gluon Gun’s laser appearing too bright.</li>
+							<li>Added dynamic lighting for weapons.</li>
+							<li>Fixed material sounds on Kasino & Kasino2.</li>
+							<li>Fixed Crowbar Arena continuing to spawn players with all weapons.</li>
+							<li>Fixed an issue where the spectator menu labels would not show</li>
+						</ul>
+					</div>
+					<h1>New Toys</h1>
+					<div class="main-content">
+						<p>Here’s the extensive list of everything we added in ZAMNHLMP 2.6 and Season 6:</p>
+						<ul>
+							<li>Ported viewbobbing from Source 2013 (HL2).</li>
+							<li>Ported viewmodel lag/sway from Source 2013 (HL2).</li>
+							<li>Removed viewroll.</li>
+							<li>Added footstep sounds for wooden surfaces.</li>
+							<li>Added a command to change the MP5’s fire-rate – when set to 0, it uses the fire-rate from AG.</li>
+							<li>Bounce is now set in night-time.</li>
+							<li>Backported the Command Menu from TFC with quick options mid-game that can be opened using the “/” key.</li>
+							<li>Added new glock sounds.</li>
+							<li>The Egon now uses 5 uranium cells at onces (yeah, we nerfed it, what you gonna do?).</li>
+							<li>Fixed an issue on Crossfire where players couldn’t shoot through one of the red railings.</li>
+							<li>Fixed an issue on Crossfire where players couldn’t shoot through the grate fence.</li>
+							<li>Fixed an issue on Crossfire where players could clip through the red railing in the bunker.</li>
+							<li>Added new explosion sounds.</li>
+						</ul>
+						<p><a target="_blank" href="/images/posts/8.2021/maxres/2.6_screenshot_4.jpg"><img class="image-left" src="/images/posts/8.2021/2.6_screenshot_4.webp" alt="2.6_screenshot_4.webp" width="200" height="125"></a>…And this isn’t the full list. While 2.6 works 100% as far as we are aware, it is still under heavy playtesting. However, it is THIS CLOSE to being finished. We hope to release it by the end of August. But, as always, <em>it’s ready when it’s ready</em>.</p>
+						<p>Or you could play the in-development version now. I don’t care which you choose.</p>
+						<p>Introducing the all-new <strong>Phoenix Insider</strong> program – the one-stop place for those eager to see more to try out early builds of games by The Phoenix Project Software. The first title we are testing in this program is ZAMNHLMP 2.6.</p>
+						<p>You can sign up <a target="_blank" href="https://forms.gle/rU6Jej1jPAVQx7RM9">here</a>, and when the time comes, you will receive an Email (or a Discord ping on our server) when a new build is ready to test.</p>
+					</div>
+					<h1>‘Till the Next Time</h1>
+					<div class="main-content">
+						<p>Thanks for reading and considering signing up for Phoenix Insider. It’s free and takes 5 minutes, so what’s stopping you?</p>
+						<p>We hope to see you in the Snark Pit when 2.6 releases!</p>
+						<br>
+						<p>-Sabian Roberts<br>The Phoenix Project Lead Developer<br><a target="_blank" href="mailto:sabian@phoenixproject.cc">sabian@phoenixproject.cc</a></p>
+						<p>-Ry13y04<br>The Phoenix Project Community Manager<br><a target="_blank" href="mailto:ryley@phoenixproject.cc">ryley@phoenixproject.cc</a></p>
+					</div>
+				</div>
+			</div>
+			<script id="replace_with_footer" src="/js/footer.js"></script>
+		</div>
+	</body>
+</html>
